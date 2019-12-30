@@ -1,11 +1,11 @@
 import React from 'react';
 import TodoListContainer from './todo_list/todo_list_container';
 
-const App = () => {
-  <div>
-   <h1>Hello World from Root - App</h1>
+const App = () => (
+  <div className="app">
+    <h1>To Do List</h1>
     <TodoListContainer />
   </div>
-};
+);
 
 export default App;
