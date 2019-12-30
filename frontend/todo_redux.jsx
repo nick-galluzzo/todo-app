@@ -1,10 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './components/app';
-import configureStore from './store/store'
+import configureStore from './store/store';
+import { receiveTodo } from './actions/todo_actions';
+import Root from './components/root';
+
 
 window.store = configureStore;
 
 ReactDOM.render(
-      <App />, document.getElementById('content')
+      <Root />, document.getElementById('content')
   );
