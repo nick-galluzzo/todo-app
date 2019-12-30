@@ -1,1 +1,13 @@
-export default () => <h3>Todo list goes here!</h3>
+import React from 'react';
+
+export default class Todolist extends React.Component {
+  constructor(props) {
+    super(props);
+  }
+
+  render() {
+    return (
+      <div>Hi</div>
+    );
+  }
+}
